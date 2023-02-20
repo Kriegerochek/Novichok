@@ -8,26 +8,28 @@
     display: flex;
     align-items: center ;
     justify-content: space-between;
+    background:linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,1));
     
     
 }
+
 img {
  height: 100px;
  width: 100px;
  
 }
 .men {
-    color: rgb(255, 0, 0);
+    color: rgba(255, 0, 0, 0);
     text-decoration: none ;
     font-weight: 700;
     font-size: 25px;
     margin-right: 25px;
-    text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 black, 0 -1px black;
 }
 .men:hover {
    
     color:rgb(0, 0, 0);
-    opacity:0.8;
+    opacity:1;
     cursor: pointer;
 }
 
