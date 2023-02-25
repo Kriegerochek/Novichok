@@ -9,8 +9,6 @@
     align-items: center ;
     justify-content: space-between;
     background:linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,1));
-    
-    
 }
 
 img {
@@ -19,7 +17,7 @@ img {
  
 }
 .men {
-    color: rgba(255, 0, 0, 0);
+    color: rgba(1, 0, 0, 0);
     text-decoration: none ;
     font-weight: 700;
     font-size: 25px;
@@ -41,6 +39,33 @@ img {
     .setka{
         width:auto;
     }
+}
+.main {
+   display: inline-block;
+   width: 33.3%;
+   height: auto;
+   margin-left: 10px;
+   vertical-align: middle;
+}
+.propose {
+    width:300px;
+    height: 350px;
+
     
-    
+}
+.button {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    width: 33.3%;
+    height: auto;
+    vertical-align: middle;
+}
+.push {
+    width: 350px;
+    height: 200px;
+    margin-right: 20px;
+}
+img.push:hover {
+   opacity: 0.7;
 }
